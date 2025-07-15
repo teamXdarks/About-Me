@@ -1,0 +1,341 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Krishna About !</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('NOBkRXuM-H4Y8TZuk');
+        })();
+    </script>
+    <script type="text/javascript">
+        // Email template for contact form
+        const emailTemplate = `
+        <div style="font-family: 'Poppins', system-ui, sans-serif; font-size: 14px; color: #0ff; background-color: #0a0a0a; padding: 20px; border: 1px solid #0ff; border-radius: 5px;">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <h2 style="color: #0ff; margin: 0; font-family: 'Orbitron', sans-serif;">New Message from Portfolio</h2>
+            </div>
+            <div style="background-color: rgba(0, 255, 255, 0.1); padding: 20px; border-radius: 5px; margin: 20px 0;">
+                <table role="presentation" style="width: 100%;">
+                    <tr>
+                        <td style="vertical-align: top; width: 60px;">
+                            <div style="background-color: #0ff; color: #000; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </td>
+                        <td style="vertical-align: top; padding-left: 15px;">
+                            <div style="color: #0ff; font-size: 18px; font-weight: bold; margin-bottom: 5px;">
+                                {{name}}
+                            </div>
+                            <div style="color: rgba(0, 255, 255, 0.7); font-size: 14px; margin-bottom: 10px;">
+                                {{time}}
+                            </div>
+                            <div style="color: #fff; font-size: 16px; line-height: 1.5; background-color: rgba(0, 255, 255, 0.05); padding: 15px; border-radius: 5px;">
+                                {{message}}
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px dashed rgba(0, 255, 255, 0.3);">
+                <p style="color: rgba(0, 255, 255, 0.7); margin: 0;">
+                    <i class="fas fa-code"></i> Message sent via Jenil's Portfolio
+                </p>
+            </div>
+        </div>`;
+    </script>
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+    <div class="particles-container" id="particles-js"></div>
+    <div class="container">
+        <header>
+            <div class="profile-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="profile-image">
+                            <img src="images/krishna.jpg" alt="Jenil">
+                            <div class="glow-effect"></div>
+                        </div>
+                        <div class="profile-content">
+                            <div class="tagline-wrapper">
+                                <span class="pre-title">Introducing</span>
+                                <h1 class="glitch" data-text="KRISHNA">KRISHNA</h1>
+                                <div class="title-badge">“I don’t just code... I create the future."</div>
+                            </div>
+                            <h2>WHITE <span class="accent">HAT </span><span class="accent">HACKER</span></h2>
+                            <div class="tagline">
+                                <span class="typing-effect"></span><span class="cursor">|</span>
+                            </div>
+                            <div class="location">
+                                <i class="fas fa-map-marker-alt"></i> Odisha , India
+                                <span class="age-badge">22 years old</span>
+                            </div>
+                            <div class="website-badge">
+                                <i class="fas fa-globe"></i> Owner of <a href="https://teamxdarks.github.io/About-Me/" target="_blank" class="website-link">https://teamxdarks.github.io/About-Me/</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <img src="images/krishna1.jpg" alt="Jenil Profile">
+                        <div class="flip-info">
+                            <p>Click to flip back</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="quote-banner">
+            <div class="quote">
+                <i class="fas fa-quote-left"></i>
+                <p id="quote-text">“I don’t just write code — I architect the future of secure digital systems.".</p>
+                <i class="fas fa-quote-right"></i>
+            </div>
+        </div>
+
+        <nav class="cyber-nav">
+            <ul>
+                <li data-section="bio" class="active"><i class="fas fa-code"></i><span>Profile</span></li>
+                <li data-section="skills"><i class="fas fa-laptop-code"></i><span>Tech</span></li>
+                <li data-section="projects"><i class="fas fa-cogs"></i><span>Projects</span></li>
+                <li data-section="vision"><i class="fas fa-user-secret"></i><span>Vision</span></li>
+                <li data-section="connect"><i class="fas fa-link"></i><span>Contact</span></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="bio-section" id="bio">
+                <div class="section-header">
+                    <i class="fas fa-code"></i>
+                    <h3>ABOUT-LEADER-KRISHNA</h3>
+                </div>
+                <div class="cyberpunk-container">
+                    <p class="cyber-text">Hi, I'm Leader Krishna — a passionate tech developer, ethical hacker, free fire api developer and cybersecurity enthusiast from India. While others use technology, I build it and protect it. <a href="https://teamxdarks.github.io/About-Me/" target="_blank" class="bio-link">https://teamxdarks.github.io/About-Me/</a>, I specialize in creating automated, secure, and scalable systems — blending intelligent bot logic, clean UI/UX, and strong backend security principles.</p>
+                    <div class="cyber-line"></div>
+                </div>
+            </section>
+
+            <section class="skills-section" id="skills">
+                <div class="section-header">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>HACKING TOOLS</h3>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-card" data-skill="Metasploit">
+                        <i class="fas fa-bomb"></i>
+                        <span>Metasploit</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="Nmap">
+                        <i class="fas fa-network-wired"></i>
+                        <span>Nmap</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="Wireshark">
+                        <i class="fas fa-wave-square"></i>
+                        <span>Wireshark</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="Hydra">
+                        <i class="fas fa-key"></i>
+                        <span>Hydra</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="Burp Suite">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Burp Suite</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="SQLMap">
+                        <i class="fas fa-database"></i>
+                        <span>SQLMap</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 98%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="Air-ng">
+                        <i class="fas fa-wifi"></i>
+                        <span>Aircrack-ng</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="SET">
+                        <i class="fas fa-user-secret"></i>
+                        <span>Social Engg.Toolkit</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects-section" id="projects">
+                <div class="section-header">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Technical Skills :</h3>
+                </div>
+                <div class="project-cards">
+                    <div class="project-card" data-tilt="">
+                        <div class="project-icon"><i class="fas fa-cogs"></i></div>
+                        <h4>Automation Projects</h4>
+                        <p>Powerful bots and scripts that automate repetitive tasks, integrate APIs, and boost efficiency across platforms like Telegram, WhatsApp, and web tools.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                            <span>Telegram API</span>
+                        </div>
+                    </div>
+                    <div class="project-card" data-tilt="">
+                        <div class="project-icon"><i class="fas fa-code"></i></div>
+                        <h4>Website Developer</h4>
+                        <p>UID-based dashboards, auto-responses, and API-integrated platforms.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-card" data-tilt="">
+                        <div class="project-icon"><i class="fas fa-bug"></i></div>
+                        <div class="new-badge">NEW</div>
+                        <h4>Ethical Hacking</h4>
+                        <p>Penetration testing, vulnerability testing, real-time exploit analysis to strengthen cybersecurity and system integrity.</p>
+                        <div class="project-tech">
+                            <span>Kali Linux</span>
+                            <span>Burp Suite</span>
+                            <span>Metasploit</span>
+                        </div>
+                    </div>
+                    <div class="project-card" data-tilt="">
+                        <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h4>Cybersecurity</h4>
+                        <p>Secure systems and networks with penetration testing, threat analysis, and real-time protection tools to prevent data breaches and vulnerabilities.</p>
+                        <div class="project-tech">
+                            <span>Linux</span>
+                            <span>Metasploit</span>
+                            <span>Wireshark</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="vision-section" id="vision">
+                <div class="section-header">
+                    <i class="fas fa-user-secret"></i>
+                    <h3>Cybersecurity & Ethical Hacking</h3>
+                </div>
+                <div class="vision-container">
+                    <div class="vision-text">
+                        <p>Like Advanced penetration testing, bug hunting, and real-world exploitation techniques to secure networks, servers, and applications against evolving cyber threats.</p>
+
+                        <div class="future-interests">
+                            <h4>Exploring the Future</h4>
+                            <div class="interest-tags">
+                                <span>Kali Linux</span>
+                                <span>Burp Suite</span>
+                                <span>Metasploit</span>
+                                <span>SQLmap</span>
+                                <span>Hydra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vision-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">17</div>
+                            <div class="stat-label">Age</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Potential</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Innovation</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="connect-section" id="connect">
+                <div class="section-header">
+                    <i class="fas fa-link"></i>
+                    <h3>Neural Network</h3>
+                </div>
+                <div class="connect-container">
+                    <div class="social-links">
+                        <a href="https://t.me/teamXdarkss" class="social-link telegram" data-tilt="">
+                            <i class="fab fa-telegram"></i>
+                            <span>@teamXdarkss</span>
+                        </a>
+                        <a href="https://github.com/teamxdarks" class="social-link github" data-tilt="">
+                            <i class="fab fa-github"></i>
+                            <span>@teamxdarks</span>
+                        </a>
+                       <a href="mailto:linuxhacker90@gmail.com" class="social-link email" data-tilt="">
+    <i class="fas fa-envelope"></i>
+    <span>linuxhacker90@gmail.com</span>
+</a>
+                        <a href="https://www.instagram.com/krishna.coder" class="social-link website" data-tilt="">
+                            <i class="fab fa-instagram instagram"></i>
+                            <span>@krishna.coder</span>
+                        </a>
+                    </div>
+                    <div class="contact-form">
+                        <h4>Initiate Transmission</h4>
+                        <form id="contactForm" action="sendmail.php" method="POST">
+  <div class="form-group">
+    <input type="text" id="name" name="name" placeholder="Your Name" class="cyber-input" required="">
+    <div class="input-line"></div>
+  </div>
+  <div class="form-group">
+    <input type="email" id="email" name="email" placeholder="Your Email" class="cyber-input" required="">
+    <div class="input-line"></div>
+  </div>
+  <div class="form-group">
+    <textarea id="message" name="message" placeholder="Your Message" class="cyber-input" required=""></textarea>
+    <div class="input-line"></div>
+  </div>
+  <button type="submit" class="cyber-button">
+    <span>SEND</span>
+    <div class="button-glitch"></div>
+  </button>
+  <div class="form-status"></div>
+</form>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>"Control is an illusion... but creation? That’s real." – Leader Krishna"</p>
+            <div class="matrix-code"></div>
+        </footer>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+                        
+</body></html>
